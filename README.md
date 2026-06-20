@@ -20,26 +20,36 @@ Created by [Ismael Castro Capafons](https://github.com/ismaelcc83)
 ## Project structure
 
 ```text
-src
-├── main
-│   └── java
-│       └── dev
-│           └── eltiempovuela
-│               └── java21
-│                   └── jeps
-│                       ├── App.java
-│                       ├── Jep431.java
-│                       ├── Jep440.java
-│                       ├── Jep441.java
-│                       └── Jep444.java
-└── test
-    └── java
-        └── dev
-            └── eltiempovuela
-                └── java21
-                    └── jeps
-                        ├── Jep431Test.java
-                        └── Jep440Test.java
+java21/
+├── .github/
+│   └── workflows/
+│       └── maven.yml
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── dev/
+│   │           └── eltiempovuela/
+│   │               └── java21/
+│   │                   └── jeps/
+│   │                       ├── App.java
+│   │                       ├── Jep431.java
+│   │                       ├── Jep440.java
+│   │                       ├── Jep441.java
+│   │                       └── Jep444.java
+│   └── test/
+│       └── java/
+│           └── dev/
+│               └── eltiempovuela/
+│                   └── java21/
+│                       └── jeps/
+│                           ├── Jep431Test.java
+│                           ├── Jep440Test.java
+│                           ├── Jep441Test.java
+│                           └── Jep444Test.java
+├── .gitignore
+├── LICENSE
+├── pom.xml
+└── README.md
 ```
 
 ## Requirements
